@@ -1,0 +1,60 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+  
+  /* Estilos para el header */
+  header {
+    background-color: #003865;
+    color: #000938;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+  }
+
+  header img {
+    max-width: 80%;
+    height: auto;
+  }
+ 
+  /* Estilos para el main */
+  main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  main h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    margin-bottom: 10px;
+  }
+  
+  main img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #003865;
+    color: darkgrey;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
