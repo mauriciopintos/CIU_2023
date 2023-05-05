@@ -8,10 +8,10 @@ body {
   /* Estilos para el header */
   header {
     background-color: #003865;
-    color: #000938;
+    color: white;
     padding: 1px;
     display: flex;
-    justify-content: space-between;
+    justify-content:center /* space-between; */
   }
   
   header h1 {
@@ -24,7 +24,8 @@ body {
   }
 
   header img {
-    max-width: 80%;
+    /* max-width: 30%; */
+    width: calc(20vw - 5px);
     height: auto;
   }
  
@@ -36,8 +37,13 @@ body {
   }
   
   main h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 10px;
+    color: #2612bd;
+    text-shadow: #003865;
+    text-decoration:underline;
+    font-family: monospace;
+    font-weight: bolder;
   }
   
   main p {
